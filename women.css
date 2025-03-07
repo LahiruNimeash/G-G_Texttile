@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8ecee;
+    text-align: center;
+    background: url('ladies1.jpg')
+}
+
+.container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: rgb(88, 139, 174);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 400px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.buy-button {
+    margin-top: 10px;
+    background-color: #e5e5e5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #d3d3d3;
+}
+button{
+    bottom: 100px;
+    margin: left 20px;
+}
+.home {
+    border-radius: 25px;
+    background: linear-gradient(to right, #1E90FF, #00008B); /* Gradient from blue to dark blue */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Add padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the text */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition-duration: 0.4s; /* Add a transition effect */
+}
+
+.home:hover {
+    background-color: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+    border: 2px solid #1E90FF; /* Add a blue border on hover */
+}
+.orange{
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(250, 223, 172);
+}
+.price{
+    background-color: bisque;
+    border-radius: 25px;
+}
+h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5%;
+    text-align: justify;
+}
